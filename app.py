@@ -3,7 +3,7 @@ import pymysql, hashlib, ctypes
 from time import sleep
 app = Flask (__name__)
 app.secret_key = 'ABCDEF'
-db = pymysql.connect(host="idea-auction.cl2j258417wv.ap-northeast-2.rds.amazonaws.com", user="auction", passwd="auctiontest7777", db="auction", charset="utf8")
+db = pymysql.connect(host="비밀", user="auction", passwd="비밀", db="auction", charset="utf8")
 cur = db.cursor()
 #템플릿 이동
 

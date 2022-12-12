@@ -1,8 +1,8 @@
 const put_image = file => {
-  const albumBucketName = 'edvocao'; // S3의 버킷 이름
+  const albumBucketName = '비밀'; // S3의 버킷 이름
   const region = 'ap-northeast-2'; // 서울
-  const accessKeyId = 'AKIAXMGATJHNKTKY27QU'; // IAM에서 생성한 사용자의 accessKeyId
-  const secretAccessKey = 'hT5RrhhVkYoP0KhIt/WlOyQab/Q6pK8Ja7U/UByo'; // IAM에서 생성한 사용자의 secretAccessKey
+  const accessKeyId = '비밀'; // IAM에서 생성한 사용자의 accessKeyId
+  const secretAccessKey = '비밀'; // IAM에서 생성한 사용자의 secretAccessKey
   const profil_key = "image/"+file.name
   AWS.config.update({
     region,
